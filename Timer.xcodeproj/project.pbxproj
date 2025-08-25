@@ -6,8 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BA6A91DF2E5CD06E00E5E4BA /* TestPlan.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = BA6A91DE2E5CD06E00E5E4BA /* TestPlan.xctestplan */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6A91F52E5CD29A00E5E4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6A91BC2E5CC75400E5E4BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6A91E32E5CD29800E5E4BA;
+			remoteInfo = TIMER;
+		};
+		BA6A91FF2E5CD29A00E5E4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6A91BC2E5CC75400E5E4BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6A91E32E5CD29800E5E4BA;
+			remoteInfo = TIMER;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		BA6A91C42E5CC75400E5E4BA /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A91DE2E5CD06E00E5E4BA /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		BA6A91E42E5CD29800E5E4BA /* TIMER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TIMER.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A91F42E5CD29A00E5E4BA /* TIMERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIMERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6A91FE2E5CD29A00E5E4BA /* TIMERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TIMERUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -17,6 +42,13 @@
 				Info.plist,
 			);
 			target = BA6A91C32E5CC75400E5E4BA /* Timer */;
+		};
+		BA6A92062E5CD29A00E5E4BA /* Exceptions for "TIMER" folder in "TIMER" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BA6A91E32E5CD29800E5E4BA /* TIMER */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -29,10 +61,49 @@
 			path = Timer;
 			sourceTree = "<group>";
 		};
+		BA6A91E52E5CD29800E5E4BA /* TIMER */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BA6A92062E5CD29A00E5E4BA /* Exceptions for "TIMER" folder in "TIMER" target */,
+			);
+			path = TIMER;
+			sourceTree = "<group>";
+		};
+		BA6A91F72E5CD29A00E5E4BA /* TIMERTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TIMERTests;
+			sourceTree = "<group>";
+		};
+		BA6A92012E5CD29A00E5E4BA /* TIMERUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TIMERUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BA6A91C12E5CC75400E5E4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A91E12E5CD29800E5E4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A91F12E5CD29A00E5E4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A91FB2E5CD29A00E5E4BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,7 +116,11 @@
 		BA6A91BB2E5CC75400E5E4BA = {
 			isa = PBXGroup;
 			children = (
+				BA6A91DE2E5CD06E00E5E4BA /* TestPlan.xctestplan */,
 				BA6A91C62E5CC75400E5E4BA /* Timer */,
+				BA6A91E52E5CD29800E5E4BA /* TIMER */,
+				BA6A91F72E5CD29A00E5E4BA /* TIMERTests */,
+				BA6A92012E5CD29A00E5E4BA /* TIMERUITests */,
 				BA6A91C52E5CC75400E5E4BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				BA6A91C42E5CC75400E5E4BA /* Timer.app */,
+				BA6A91E42E5CD29800E5E4BA /* TIMER.app */,
+				BA6A91F42E5CD29A00E5E4BA /* TIMERTests.xctest */,
+				BA6A91FE2E5CD29A00E5E4BA /* TIMERUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +161,74 @@
 			productReference = BA6A91C42E5CC75400E5E4BA /* Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BA6A91E32E5CD29800E5E4BA /* TIMER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A92072E5CD29A00E5E4BA /* Build configuration list for PBXNativeTarget "TIMER" */;
+			buildPhases = (
+				BA6A91E02E5CD29800E5E4BA /* Sources */,
+				BA6A91E12E5CD29800E5E4BA /* Frameworks */,
+				BA6A91E22E5CD29800E5E4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BA6A91E52E5CD29800E5E4BA /* TIMER */,
+			);
+			name = TIMER;
+			packageProductDependencies = (
+			);
+			productName = TIMER;
+			productReference = BA6A91E42E5CD29800E5E4BA /* TIMER.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6A91F32E5CD29A00E5E4BA /* TIMERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A920A2E5CD29A00E5E4BA /* Build configuration list for PBXNativeTarget "TIMERTests" */;
+			buildPhases = (
+				BA6A91F02E5CD29A00E5E4BA /* Sources */,
+				BA6A91F12E5CD29A00E5E4BA /* Frameworks */,
+				BA6A91F22E5CD29A00E5E4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6A91F62E5CD29A00E5E4BA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA6A91F72E5CD29A00E5E4BA /* TIMERTests */,
+			);
+			name = TIMERTests;
+			packageProductDependencies = (
+			);
+			productName = TIMERTests;
+			productReference = BA6A91F42E5CD29A00E5E4BA /* TIMERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6A91FD2E5CD29A00E5E4BA /* TIMERUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A920D2E5CD29A00E5E4BA /* Build configuration list for PBXNativeTarget "TIMERUITests" */;
+			buildPhases = (
+				BA6A91FA2E5CD29A00E5E4BA /* Sources */,
+				BA6A91FB2E5CD29A00E5E4BA /* Frameworks */,
+				BA6A91FC2E5CD29A00E5E4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6A92002E5CD29A00E5E4BA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BA6A92012E5CD29A00E5E4BA /* TIMERUITests */,
+			);
+			name = TIMERUITests;
+			packageProductDependencies = (
+			);
+			productName = TIMERUITests;
+			productReference = BA6A91FE2E5CD29A00E5E4BA /* TIMERUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +241,17 @@
 				TargetAttributes = {
 					BA6A91C32E5CC75400E5E4BA = {
 						CreatedOnToolsVersion = 16.4;
+					};
+					BA6A91E32E5CD29800E5E4BA = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					BA6A91F32E5CD29A00E5E4BA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BA6A91E32E5CD29800E5E4BA;
+					};
+					BA6A91FD2E5CD29A00E5E4BA = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = BA6A91E32E5CD29800E5E4BA;
 					};
 				};
 			};
@@ -113,12 +270,37 @@
 			projectRoot = "";
 			targets = (
 				BA6A91C32E5CC75400E5E4BA /* Timer */,
+				BA6A91E32E5CD29800E5E4BA /* TIMER */,
+				BA6A91F32E5CD29A00E5E4BA /* TIMERTests */,
+				BA6A91FD2E5CD29A00E5E4BA /* TIMERUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BA6A91C22E5CC75400E5E4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6A91DF2E5CD06E00E5E4BA /* TestPlan.xctestplan in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A91E22E5CD29800E5E4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A91F22E5CD29A00E5E4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A91FC2E5CD29A00E5E4BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,7 +317,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA6A91E02E5CD29800E5E4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A91F02E5CD29A00E5E4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6A91FA2E5CD29A00E5E4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6A91F62E5CD29A00E5E4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6A91E32E5CD29800E5E4BA /* TIMER */;
+			targetProxy = BA6A91F52E5CD29A00E5E4BA /* PBXContainerItemProxy */;
+		};
+		BA6A92002E5CD29A00E5E4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6A91E32E5CD29800E5E4BA /* TIMER */;
+			targetProxy = BA6A91FF2E5CD29A00E5E4BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BA6A91D32E5CC75600E5E4BA /* Debug */ = {
@@ -143,7 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Timer/Timer.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Timer/TimerDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R44WG942GS;
@@ -153,8 +369,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -183,8 +400,9 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +537,138 @@
 			};
 			name = Release;
 		};
+		BA6A92082E5CD29A00E5E4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TIMER/TIMER.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R44WG942GS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TIMER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ceo.TIMER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA6A92092E5CD29A00E5E4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TIMER/TIMER.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R44WG942GS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TIMER/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ceo.TIMER;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA6A920B2E5CD29A00E5E4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R44WG942GS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ceo.TIMERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIMER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TIMER";
+			};
+			name = Debug;
+		};
+		BA6A920C2E5CD29A00E5E4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R44WG942GS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ceo.TIMERTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TIMER.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TIMER";
+			};
+			name = Release;
+		};
+		BA6A920E2E5CD29A00E5E4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R44WG942GS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ceo.TIMERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TIMER;
+			};
+			name = Debug;
+		};
+		BA6A920F2E5CD29A00E5E4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R44WG942GS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ceo.TIMERUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TIMER;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +686,33 @@
 			buildConfigurations = (
 				BA6A91D32E5CC75600E5E4BA /* Debug */,
 				BA6A91D42E5CC75600E5E4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A92072E5CD29A00E5E4BA /* Build configuration list for PBXNativeTarget "TIMER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A92082E5CD29A00E5E4BA /* Debug */,
+				BA6A92092E5CD29A00E5E4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A920A2E5CD29A00E5E4BA /* Build configuration list for PBXNativeTarget "TIMERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A920B2E5CD29A00E5E4BA /* Debug */,
+				BA6A920C2E5CD29A00E5E4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A920D2E5CD29A00E5E4BA /* Build configuration list for PBXNativeTarget "TIMERUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6A920E2E5CD29A00E5E4BA /* Debug */,
+				BA6A920F2E5CD29A00E5E4BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

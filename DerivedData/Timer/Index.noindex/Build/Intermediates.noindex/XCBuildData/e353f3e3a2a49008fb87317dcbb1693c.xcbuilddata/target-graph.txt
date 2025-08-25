@@ -1,0 +1,15 @@
+Target dependency graph (10 targets)
+Target 'TIMERUITests' in project 'Timer' (no dependencies)
+Target 'TIMERUITests' in project 'Timer'
+➜ Explicit dependency on target 'TIMER' in project 'Timer'
+Target 'TIMERUITests' in project 'Timer'
+➜ Explicit dependency on target 'TIMER' in project 'Timer'
+Target 'TIMERTests' in project 'Timer' (no dependencies)
+Target 'TIMERTests' in project 'Timer'
+➜ Explicit dependency on target 'TIMER' in project 'Timer'
+Target 'TIMERTests' in project 'Timer'
+➜ Explicit dependency on target 'TIMER' in project 'Timer'
+Target 'TIMER' in project 'Timer' (no dependencies)
+Target 'TIMER' in project 'Timer' (no dependencies)
+Target 'Timer' in project 'Timer' (no dependencies)
+Target 'Timer' in project 'Timer' (no dependencies)

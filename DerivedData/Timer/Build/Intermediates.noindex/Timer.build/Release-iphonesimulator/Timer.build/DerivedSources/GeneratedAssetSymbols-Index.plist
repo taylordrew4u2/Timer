@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/taylordrew/Developer/Timer/Timer/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageName_45_D_2768_C_B_99_D_4161_AEC_0_525_B_32_CC_7_EE_1</string>
+			<key>relativePath</key>
+			<string>./45D2768C-B99D-4161-AEC0-525B32CC7EE1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>_45_D_2768_C_B_99_D_4161_AEC_0_525_B_32_CC_7_EE_1</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+{
+  "" : {
+    "dependencies" : "/Users/taylordrew/Developer/Timer/DerivedData/Timer/Index.noindex/Build/Intermediates.noindex/Timer.build/Debug-iphonesimulator/TIMERUITests.build/Objects-normal/arm64/TIMERUITests-master.d",
+    "diagnostics" : "/Users/taylordrew/Developer/Timer/DerivedData/Timer/Index.noindex/Build/Intermediates.noindex/Timer.build/Debug-iphonesimulator/TIMERUITests.build/Objects-normal/arm64/TIMERUITests-master.dia",
+    "emit-module-dependencies" : "/Users/taylordrew/Developer/Timer/DerivedData/Timer/Index.noindex/Build/Intermediates.noindex/Timer.build/Debug-iphonesimulator/TIMERUITests.build/Objects-normal/arm64/TIMERUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/taylordrew/Developer/Timer/DerivedData/Timer/Index.noindex/Build/Intermediates.noindex/Timer.build/Debug-iphonesimulator/TIMERUITests.build/Objects-normal/arm64/TIMERUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/taylordrew/Developer/Timer/DerivedData/Timer/Index.noindex/Build/Intermediates.noindex/Timer.build/Debug-iphonesimulator/TIMERUITests.build/Objects-normal/arm64/TIMERUITests-master.swiftdeps"
+  },
+  "/Users/taylordrew/Developer/Timer/TIMERUITests/TIMERUITests.swift" : {
+
+  },
+  "/Users/taylordrew/Developer/Timer/TIMERUITests/TIMERUITestsLaunchTests.swift" : {
+
+  }
+}

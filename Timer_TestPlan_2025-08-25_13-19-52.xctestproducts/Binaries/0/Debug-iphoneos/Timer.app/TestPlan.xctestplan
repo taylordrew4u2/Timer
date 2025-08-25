@@ -1,0 +1,27 @@
+{
+  "configurations" : [
+    {
+      "id" : "918B5847-F7E0-4393-9A85-4AF66EA52B72",
+      "name" : "Configuration 1",
+      "options" : {
+        "locationScenario" : {
+          "identifier" : "New York, NY, USA",
+          "referenceType" : "built-in"
+        },
+        "uiTestingScreenshotsLifetime" : "keepAlways"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Timer.xcodeproj",
+      "identifier" : "BA6A91C32E5CC75400E5E4BA",
+      "name" : "Timer"
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

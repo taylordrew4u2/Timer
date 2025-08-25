@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Timer
+//  TIMER
 //
 //  Created by Taylor Drew on 8/25/25.
 //

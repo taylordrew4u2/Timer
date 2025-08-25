@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/taylordrew/Developer/Timer/DerivedData/Timer/Build/Products/Release-iphonesimulator/Timer.app/Timer'
+relocations:     []
+...

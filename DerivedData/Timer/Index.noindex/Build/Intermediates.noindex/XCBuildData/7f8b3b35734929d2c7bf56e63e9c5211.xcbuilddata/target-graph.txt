@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+Target 'Timer' in project 'Timer' (no dependencies)
+Target 'Timer' in project 'Timer' (no dependencies)

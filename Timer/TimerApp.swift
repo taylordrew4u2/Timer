@@ -1,6 +1,6 @@
 //
-//  TimerApp.swift
-//  Timer
+//  TIMERApp.swift
+//  TIMER
 //
 //  Created by Taylor Drew on 8/25/25.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct TimerApp: App {
+struct TIMERApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,

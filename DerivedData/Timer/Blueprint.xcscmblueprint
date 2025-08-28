@@ -1,14 +1,14 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "09A7A5B75736241C6C1BA6839CCADFDDF0E9A7F4",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "59BBCDBE803C7DAC304FADA6C2E0B22375CFA827",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "09A7A5B75736241C6C1BA6839CCADFDDF0E9A7F4" : 0
+    "59BBCDBE803C7DAC304FADA6C2E0B22375CFA827" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BC86455F-D8FB-484C-A60F-FD3F142268D2",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "09A7A5B75736241C6C1BA6839CCADFDDF0E9A7F4" : "Timer\/"
+    "59BBCDBE803C7DAC304FADA6C2E0B22375CFA827" : "Timer\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Timer",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,7 +17,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/taylordrew4u2\/Timer.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09A7A5B75736241C6C1BA6839CCADFDDF0E9A7F4"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59BBCDBE803C7DAC304FADA6C2E0B22375CFA827"
     }
   ]
 }
